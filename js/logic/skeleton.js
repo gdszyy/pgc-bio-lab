@@ -2,7 +2,7 @@
  * 骨骼生成逻辑 - 生物结构的核心算法
  */
 
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
+import * as THREE from 'three';
 import { PseudoRandom } from '../core/math.js';
 import { resolveDNA, getMaterialMapping, applyTraitModifiers } from './dna.js';
 import { log } from '../core/utils.js';

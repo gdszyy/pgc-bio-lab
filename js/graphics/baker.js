@@ -2,7 +2,7 @@
  * 精灵烘焙系统 - 将 3D 动画导出为 2D 精灵序列
  */
 
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
+import * as THREE from 'three';
 
 export class SpriteBaker {
     constructor(scene, skinnedMesh, animController) {

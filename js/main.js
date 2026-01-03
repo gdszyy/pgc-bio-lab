@@ -3,8 +3,8 @@
  * ES6 模块化版本
  */
 
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 import { TextureFactory } from './graphics/materials.js';
 import { generateSkeleton, applyDamage, createBones } from './logic/skeleton.js';
@@ -50,7 +50,7 @@ function init() {
     scene.add(new THREE.GridHelper(20, 20, 0x555555, 0x333333));
 
     // 控制器
-    controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls = new OrbitControls(camera, renderer.domElement);
     controls.target.set(0, 1.5, 0);
 
     // 初始化系统
