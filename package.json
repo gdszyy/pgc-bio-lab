@@ -1,0 +1,27 @@
+{
+  "name": "pgc-bio-lab",
+  "version": "2.0.0",
+  "description": "PGC Low Poly Creature Generator - Modular ES6 Version",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step needed for static site'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "three.js",
+    "creature-generator",
+    "procedural-generation",
+    "voxel",
+    "animation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
