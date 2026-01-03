@@ -2,7 +2,7 @@
  * 动画控制器 - 骨骼动画和状态管理
  */
 
-import * as THREE from 'three';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
 
 export class AnimationController {
     constructor() {

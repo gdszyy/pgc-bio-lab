@@ -2,7 +2,7 @@
  * 网格/体素生成算法 - 最复杂的渲染逻辑
  */
 
-import * as THREE from 'three';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
 import { FastSDF } from '../core/math.js';
 import { log, getVertexColor } from '../core/utils.js';
 

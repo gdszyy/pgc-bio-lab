@@ -2,7 +2,7 @@
  * 材质工厂 - 纹理和材质生成
  */
 
-import * as THREE from 'three';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js';
 
 export class TextureFactory {
     static createNoiseCanvas(width, height, type, colorBase = [255, 255, 255]) {
